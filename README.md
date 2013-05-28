@@ -13,7 +13,10 @@ A demo project for PHP Architect using Virtual Box as the Provider and Bash as t
 2. Checkout the project and run it
 <code>
 $ git clone <http://www.github.com/jeremyquinton/php_architect_vagrant_demo>
+
 $ cd php_architect_vagrant_demo
+
 $ vagrant up 
+
 </code>
 3. Once the vagrant up process is finished you should be able to browse to http://vagrant-host.example.com
