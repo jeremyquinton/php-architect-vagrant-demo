@@ -17,4 +17,4 @@ $ git clone http://www.github.com/jeremyquinton/php_architect_vagrant_demo
 $ cd php_architect_vagrant_demo
 $ vagrant up
 ~~~~
-3. Once the vagrant up process is finished you should be able to browse to http://vagrant-host.example.com
+Once the vagrant up process is finished you should be able to browse to http://vagrant-host.example.com
