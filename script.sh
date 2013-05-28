@@ -33,10 +33,10 @@ yum -y install mysql55-server
 #replace the default apache configuration
 cp /vagrant/config/httpd.conf /etc/httpd/conf
 #restart apache
-service httpd restart
+sudo service httpd restart
 #replace the default iptables configuration so that port 80 is open
 cp /vagrant/config/iptables /etc/sysconfig/iptables
-service httpd restart
+sudo service iptables restart
 #the default virtual host in httpd.conf is vagrant-host.example.com
 #add this to the hosts file
 cat /etc/hosts | grep vagrant-host.example.com
