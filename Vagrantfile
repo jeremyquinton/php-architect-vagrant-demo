@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  #config.vm.box_url = ""
+  config.vm.box_url = "https://www.dropbox.com/s/u234057firh42eb/vagrant-centos-6.4-i386.box"
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
