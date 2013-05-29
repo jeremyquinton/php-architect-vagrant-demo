@@ -1,6 +1,3 @@
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
-
 Vagrant.configure("2") do |config|
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
@@ -34,5 +31,5 @@ Vagrant.configure("2") do |config|
   
   #configure the machine using bash script
   config.vm.provision :shell, :path => "script.sh"
-
 end
+
