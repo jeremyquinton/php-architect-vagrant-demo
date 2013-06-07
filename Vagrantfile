@@ -25,7 +25,6 @@ Vagrant.configure("2") do |config|
   # Example for VirtualBox:
   #
   config.vm.provider :virtualbox do |vb|
-    vb.gui = true
     vb.customize ["modifyvm", :id, "--memory", "1024"]
   end
   
